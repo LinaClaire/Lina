@@ -24,11 +24,11 @@ body {
 }
 .display-1 {
   font-family: 'Material Symbols Outlined', monospace;
-  font-size: 7rem;
+  font-size: 5rem;
   line-height: 1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 8.75rem;
+  font-size: 6.25rem;
 }
 .display-2 {
   font-family: 'Bebas Neue', sans-serif;
@@ -69,14 +69,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 5.6rem;
+    font-size: 4rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 4.9rem;
-    font-size: calc( 3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.5rem;
+    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 4rem;
@@ -101,9 +101,9 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
-    font-size: 4.9rem;
-    font-size: calc( 3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.1 * (3.0999999999999996rem + (7 - 3.0999999999999996) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 3.5rem;
+    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-2 {
     font-size: 4rem;
@@ -1424,6 +1424,11 @@ a {
 }
 .cid-uut4aGupU8 {
   display: flex;
+  background-image: url("../../../assets/images/mbr-1920x1280.jpeg");
+}
+.cid-uut4aGupU8 .mbr-overlay {
+  background-color: #edefeb;
+  opacity: 0.5;
 }
 @media (min-width: 768px) {
   .cid-uut4aGupU8 {
@@ -1465,7 +1470,6 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/mbr-2-1920x1280.jpg");
 }
 .cid-uut4aGupU8 .mbr-section-title,
 .cid-uut4aGupU8 .mbr-section-subtitle {
